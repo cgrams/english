@@ -8,11 +8,11 @@ import { MaterialModule } from './material.module'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AccomodationComponent } from './accomodation/accomodation.component';
-import { RoomsComponent } from './accomodation/rooms/rooms.component';
-import { FoodBeveragesComponent } from './food-beverages/food-beverages.component';
-import { RestaurantComponent } from './food-beverages/restaurant/restaurant.component';
-import { BarsComponent } from './food-beverages/bars/bars.component';
+import { HelpComponent } from './help/help.component';
+import { RoomsComponent } from './help/rooms/rooms.component';
+import { EslComponent } from './esl/esl.component';
+import { RestaurantComponent } from './esl/restaurant/restaurant.component';
+import { BarsComponent } from './esl/bars/bars.component';
 import { LifestyleComponent } from './lifestyle/lifestyle.component';
 import { WelnessAndSpaComponent } from './lifestyle/welness-and-spa/welness-and-spa.component';
 import { ResortActivitiesComponent } from './lifestyle/resort-activities/resort-activities.component';
@@ -26,6 +26,8 @@ import { OffersComponent } from './offers/offers.component';
 import { AuthComponent } from './auth/auth.component';
 import { SigninComponent } from './auth/signin/signin.component';
 import { SignupComponent } from './auth/signup/signup.component';
+import { HomeComponent } from './home/home.component';
+import { SidenavComponent } from './navigation/sidenav/sidenav.component';
 
 
 
@@ -33,9 +35,9 @@ import { SignupComponent } from './auth/signup/signup.component';
 @NgModule({
   declarations: [
     AppComponent,
-    AccomodationComponent,
+    HelpComponent,
     RoomsComponent,
-    FoodBeveragesComponent,
+    EslComponent,
     RestaurantComponent,
     BarsComponent,
     LifestyleComponent,
@@ -50,7 +52,9 @@ import { SignupComponent } from './auth/signup/signup.component';
     OffersComponent,
     AuthComponent,
     SigninComponent,
-    SignupComponent
+    SignupComponent,
+    HomeComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,

@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portmacenglishtutor';
+	events: string[] = [];
+	opened: boolean;  
 }
